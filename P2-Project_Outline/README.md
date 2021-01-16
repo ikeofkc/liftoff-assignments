@@ -12,13 +12,13 @@ This is a mobile app to loudly remind forgetful folks to do something if they st
 Imagine you borrowed a crockpot from your parent.  Everytime you visit them, you forget to grab the crockpot on your way out of the house. If you knew you were visiting them later today you can use this app to *quickly* remind yourself to grab the crockpot. If you leave the house without grabbing it, an alarm with a notification message will sound. 
 
 ### Features
-####Initial basic features:
+#### Initial basic features:
  - Leave alert: Users will be able to create an alert for leaving their current location.
  - Alarm: The app will play a loud alarm and display a notificaiton when leaving a location
  - Cancel alarm: Users will be able to cancel the "leave alert" to avoid an alarm going off
  - Custom radius distance: User will be able to adjust how far location to remind them 
 
-####Future app expansion if there is time:
+#### Future app expansion if there is time:
  - Add location via address or map
  - Manage task lists for various locations (or wifi connections)
  - Allow configuring whether an alarm, notification, or both is played
@@ -26,19 +26,15 @@ Imagine you borrowed a crockpot from your parent.  Everytime you visit them, you
  - Integrate into Google assistant with key phrase "before I leave..."
 
 ### Technologies
- - Dart language
-	- https://dart.dev/
- - Flutter framework
-	- https://flutter.dev/
- - SqLite or Hive database
-	- https://pub.dev/packages/sqflite
-	- https://pub.dev/packages/hive
- - Possibly Google Maps API
-	- https://developers.google.com/maps/documentation/
- - Possibly using Wifi Hotspot recognition instead of location data to reduce GPS sensor and battery usage
+ - [Dart language](https://dart.dev/)
+ - [Flutter framework](https://flutter.dev/)
+ - [SQLite](https://pub.dev/packages/sqflite) or [Hive](https://pub.dev/packages/hive) database
+ - *Possibly* [Google Maps API](https://developers.google.com/maps/documentation/)
+ - *Possibly* Wifi Hotspot recognition instead of location data
+ 	-Would reduce GPS sensor and battery usage but would be less flexible
 
 ### What I'll Have to Learn
- - Utilizing Google Maps API
+ - Utilizing Map provider API
  - Dart & Flutter
     - Half way through self-paced course, have basic functional knowledge currently.
  - Hive Db
